@@ -62,20 +62,22 @@ input:focus {
 }
 
 button {
-    height: 50px;
-    width: 50px;
-    font-size: 30px;
-    border-radius: 10px;
+    font-size: 17px;
+    padding: 10px;
+    padding-left: 20px;
+    border-radius: 30px;
     margin-left: 10px;
     border: none;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(223, 30, 30);
     font-family: 'Courier New', Courier, monospace;
     line-height: 0px;
-    font-weight: 600;
+    /* font-weight: 600; */
+    padding :16px;
+
 }
 
 button:hover {
-    transform: rotate(720deg);
+    /* transform: rotate(720deg); */
     transition: all 1s;
     cursor: pointer;
     background-color: black;
